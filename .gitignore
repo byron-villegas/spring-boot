@@ -1,0 +1,22 @@
+# Maven
+target/
+
+# Eclipse IDE
+.settings/
+.classpath
+.project
+bin/
+
+# Visual Studio Code
+.vscode
+
+# H2 Database
+*.db
+
+# Logs
+*.log
+*.log.*
+*.gz
+
+# IntelliJ Idea
+.idea/
