@@ -4,10 +4,10 @@
     <artifactId>spring-boot</artifactId>
     <version>1.0-SNAPSHOT</version>
     <parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.2.5.RELEASE</version>
-		<relativePath/>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-parent</artifactId>
+	<version>2.2.5.RELEASE</version>
+	<relativePath/>
     </parent>
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -16,7 +16,7 @@
         <java.version>1.8</java.version>
         <hikari.version>3.4.2</hikari.version>
         <json-smart.version>2.2.1</json-smart.version>
-		<joda-time.version>2.7</joda-time.version>
+	<joda-time.version>2.7</joda-time.version>
         <jasperreports.version>6.11.0</jasperreports.version>
         <nimbus-jose-jwt.version>3.1.1</nimbus-jose-jwt.version>
         <javax-mail.version>1.4</javax-mail.version>
@@ -47,7 +47,7 @@
             <artifactId>spring-boot-devtools</artifactId>
         </dependency>
         <!-- End Spring Boot Dev Tools -->
-		<!-- Begin Spring Boot Framework Test -->
+	<!-- Begin Spring Boot Framework Test -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -74,13 +74,13 @@
             <version>${hikari.version}</version>
         </dependency>
         <!-- End HikariCP -->
-		<!-- Begin Joda Time -->
-		<dependency>
-			<groupId>joda-time</groupId>
-			<artifactId>joda-time</artifactId>
-			<version>${joda-time.version}</version>
-		</dependency>
-		<!-- End Joda Time -->
+	<!-- Begin Joda Time -->
+	<dependency>
+		<groupId>joda-time</groupId>
+		<artifactId>joda-time</artifactId>
+		<version>${joda-time.version}</version>
+	</dependency>
+	<!-- End Joda Time -->
         <!-- Begin Jasper Reports -->
         <dependency>
             <groupId>net.sf.jasperreports</groupId>
@@ -101,20 +101,20 @@
             <version>${json-smart.version}</version>
         </dependency>
         <!-- End Json Smart -->
-		<!-- Begin JWT -->
-		<dependency>
-			<groupId>com.nimbusds</groupId>
-			<artifactId>nimbus-jose-jwt</artifactId>
-			<version>${nimbus-jose-jwt.version}</version>
-		</dependency>
-		<!-- End JWT -->
-		<!-- Begin Javax Email -->
-		<dependency>
-			<groupId>javax.mail</groupId>
-			<artifactId>mail</artifactId>
-			<version>${javax-mail.version}</version>
-		</dependency>
-		<!-- End Javax Email -->
+	<!-- Begin JWT -->
+	<dependency>
+		<groupId>com.nimbusds</groupId>
+		<artifactId>nimbus-jose-jwt</artifactId>
+		<version>${nimbus-jose-jwt.version}</version>
+	</dependency>
+	<!-- End JWT -->
+	<!-- Begin Javax Email -->
+	<dependency>
+		<groupId>javax.mail</groupId>
+		<artifactId>mail</artifactId>
+		<version>${javax-mail.version}</version>
+	</dependency>
+	<!-- End Javax Email -->
         <!-- Begin Swagger2 -->
         <dependency>
             <groupId>io.springfox</groupId>
